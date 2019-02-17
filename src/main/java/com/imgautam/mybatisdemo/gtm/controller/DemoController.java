@@ -45,15 +45,15 @@ public class DemoController {
     }
     
     
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String demoApp(ModelMap model) {
         model.addAttribute("data","Im-gautam");
-         User users = new User();
-        users.setUsername("Youtube");
-        users.setEmail("imgautam@gmail.com");
-
-        usersMapper.insert(users);
+//         User users = new User();
+//        users.setUsername("Youtube");
+//        users.setEmail("imgautam@gmail.com");
+//
+//        usersMapper.insert(users);
         usersMapper.findAll();
-        return "demo";
+        return "layout";
     }
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title layout:title-pattern="$DECORATOR_TITLE - $CONTENT_TITLE">Mybatis-Demo</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+        <!-- Bootstrap 4.3.1 -->
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/w3.css" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="/css/font-awesome-5.7.2.css" />
+    </head>
+    <body class="hold-transition skin-blue sidebar-mini">
+        <div class="wrapper">
+
+            <div data-th-replace="fragments/top-navigation :: top-navigation"></div>
+
+            <!-- Left side column. contains the logo and sidebar -->
+
+            <!-- sidebar menu -->
+            <div data-th-replace="fragments/sidebar-menu :: sidebar-menu"></div>
+            <!-- /sidebar menu -->
+
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header" data-layout:fragment="header"></section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <div data-layout-fragment="content"></div>
+
+                </section>
+                <!-- /.content -->
+            </div>
+            <!-- /.content-wrapper -->
+
+            <!-- footer content -->
+            <div data-th-replace="fragments/footer-content :: footer-content"></div>
+            <!-- /footer content -->
+        </div>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/vue.js"></script>
+        <script>
+            function myAccFunc() {
+                var x = document.getElementById("demoAcc");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-green";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className =
+                            x.previousElementSibling.className.replace(" w3-green", "");
+                }
+            }
+
+            function myDropFunc() {
+                var x = document.getElementById("demoDrop");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                    x.previousElementSibling.className += " w3-green";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                    x.previousElementSibling.className =
+                            x.previousElementSibling.className.replace(" w3-green", "");
+                }
+            }
+        </script>
+    </body>
+</html>
