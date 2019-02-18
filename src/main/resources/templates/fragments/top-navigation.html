@@ -1,26 +1,39 @@
-<div  data-th-fragment="top-navigation">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+<div data-th-fragment="top-navigation" class="col-xl-10 col-lg-9 col-md-8 bg-dark ml-auto fixed-top py-2 top-navbar">
+    <div class="row align-items-center">
+        <div class="col-md-4">
+            <h4 class="text-light">Dashboard</h4>
+        </div>
+        <div class="col-md-5">
+            <form class="form-inline">
+                <input
+                    class="form-control mr-sm-2 search-input"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                    />
+                <button class="btn btn-white search-button" type="button">
+                    <i class="fas fa-search text-success"></i>
+                </button>
             </form>
         </div>
-    </nav>
+        <div class="col-md-3">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-comments text-muted fa-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-bell text-muted fa-lg"></i>
+                    </a>
+                </li>
+                <li class="nav-item ml-md-auto">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
