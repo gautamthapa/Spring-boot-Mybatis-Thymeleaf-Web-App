@@ -3297,3 +3297,423 @@ Verify the connector's configuration, identify and stop any process that's liste
 2019-02-20 03:37:17.336 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
 2019-02-20 03:37:17.336 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
 2019-02-20 03:37:17.336 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:43:30.077 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:43:30.077 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:43:30.079 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:43:30.079 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.079 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.079 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.079 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.080 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.082 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.082 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:43:30.082 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:50:06.609 DEBUG 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:50:06.610 DEBUG 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:50:06.628 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:50:06.628 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.628 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.629 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 TRACE 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:50:06.630 DEBUG 25480 --- [http-nio-8099-exec-4] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:50:14.716 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:50:14.716 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:50:14.717 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:50:14.717 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.718 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.718 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.718 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.718 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.719 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.720 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:50:14.721 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:50:17.493 DEBUG 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:50:17.493 DEBUG 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:50:17.494 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:50:17.494 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.494 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.495 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.495 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.496 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 TRACE 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:50:17.498 DEBUG 25480 --- [http-nio-8099-exec-9] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:51:58.522 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:51:58.522 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:51:58.524 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:51:58.524 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.524 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.525 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.526 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.526 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:51:58.526 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:53:06.982 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:53:06.983 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:53:06.984 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:53:06.985 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.985 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.990 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.991 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.993 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.993 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.993 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.993 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.993 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.994 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:53:06.994 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:56:07.381 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:56:07.382 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:56:07.383 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:56:07.383 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.383 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.383 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.384 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.384 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.384 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.385 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.386 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:56:07.386 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:56:37.763 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:56:37.763 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:56:37.764 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:56:37.764 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.764 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.765 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:56:37.766 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:57:35.689 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:57:35.689 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.691 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.692 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.693 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.693 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:57:35.694 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:58:01.418 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:58:01.419 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:58:01.420 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:58:01.420 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.421 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.429 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.430 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.430 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.430 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.431 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.431 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.431 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.431 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:58:01.431 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:58:32.690 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:58:32.690 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:58:32.692 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:58:32.692 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.692 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.692 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.692 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.693 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.693 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.696 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.697 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.697 TRACE 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:58:32.697 DEBUG 25480 --- [http-nio-8099-exec-3] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:58:51.410 DEBUG 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:58:51.410 DEBUG 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:58:51.412 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:58:51.412 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.412 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.413 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.414 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 TRACE 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:58:51.415 DEBUG 25480 --- [http-nio-8099-exec-7] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:59:11.431 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:59:11.432 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.433 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.434 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.435 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.435 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:59:11.435 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 03:59:34.232 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 03:59:34.232 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 03:59:34.234 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 03:59:34.234 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.234 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.240 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.241 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.244 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.244 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.244 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.244 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.245 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.245 TRACE 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 03:59:34.245 DEBUG 25480 --- [http-nio-8099-exec-8] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:00:53.857 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:00:53.858 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:00:53.859 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:00:53.859 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.860 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.860 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.860 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.861 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.861 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.862 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.862 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.862 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.862 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 TRACE 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:00:53.863 DEBUG 25480 --- [http-nio-8099-exec-6] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:05:13.037 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:05:13.038 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:05:13.040 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:05:13.040 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.040 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.041 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.042 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.042 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:05:13.043 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:06:01.824 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:06:01.825 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:06:01.826 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:06:01.826 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.826 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.826 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.827 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.828 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.835 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.836 TRACE 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:06:01.836 DEBUG 25480 --- [http-nio-8099-exec-1] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:06:09.882 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:06:09.883 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:06:09.883 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:06:09.884 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.884 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.884 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.884 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.885 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:06:09.886 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:08:06.739 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:08:06.739 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.741 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.742 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 TRACE 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:08:06.744 DEBUG 25480 --- [http-nio-8099-exec-2] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:08:23.142 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:08:23.142 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:08:23.144 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:08:23.144 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.144 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.145 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.145 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.145 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.145 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.146 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.146 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.146 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.146 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 TRACE 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:08:23.147 DEBUG 25480 --- [http-nio-8099-exec-5] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
+2019-02-20 04:08:35.356 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==>  Preparing: select * from user 
+2019-02-20 04:08:35.357 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : ==> Parameters: 
+2019-02-20 04:08:35.358 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==    Columns: pk, username, email
+2019-02-20 04:08:35.358 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 1, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.358 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 2, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.358 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 3, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.358 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 4, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 5, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 6, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 13, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 14, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 15, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 16, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 17, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 18, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 19, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.359 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 20, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.361 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 21, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.361 TRACE 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==        Row: 22, Youtube, imgautam@gmail.com
+2019-02-20 04:08:35.361 DEBUG 25480 --- [http-nio-8099-exec-10] c.i.m.gtm.mybatis.UserMybatis.findAll    : <==      Total: 16
