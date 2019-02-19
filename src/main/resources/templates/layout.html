@@ -11,10 +11,19 @@
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/css/w3.css" />
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="/css/theme/plugins/fontawesome-free-5.7.2-web/css/all.css">
-        <link rel="stylesheet" href="/css/theme/plugins/fontawesome-free-5.7.2-web/css/brands.min.css">
-        <link rel="stylesheet" href="/css/theme/plugins/fontawesome-free-5.7.2-web/css/solid.min.css">
-<link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/theme/plugins/fontawesome-free-5.7.2-web/css/all.css"/>
+        <link rel="stylesheet" href="/theme/plugins/fontawesome-free-5.7.2-web/css/brands.min.css"/>
+        <link rel="stylesheet" href="/theme/plugins/fontawesome-free-5.7.2-web/css/solid.min.css"/>
+
+
+        <!--DataTables-->
+        <link rel="stylesheet" href="/theme/plugins/dataTables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" media='all'/>
+        <link rel="stylesheet" href="/theme/plugins/dataTables/Buttons-1.5.4/css/buttons.bootstrap4.min.css" media='all'/>
+        <link rel="stylesheet" href="/theme/plugins/dataTables/Select-1.2.6/css/select.bootstrap4.min.css" media='all'/>
+
+
+
+        <link rel="stylesheet" href="/css/main.css" />
 
     </head>
     <body>
@@ -34,7 +43,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <!-- sidebar -->
-                             <div data-th-replace="fragments/sidebar-menu :: sidebar-menu"></div>
+                            <div data-th-replace="fragments/sidebar-menu :: sidebar-menu"></div>
                             <!-- end of sidebar -->
                         </div>
 
@@ -52,7 +61,9 @@
                             <!-- Main content -->
                             <section class="content">
 
-                                <div data-layout-fragment="content"></div>
+                                <div data-layout-fragment="content">
+                                    <h1></h1>
+                                </div>
 
                             </section>
                             <!-- /.content -->
@@ -63,38 +74,68 @@
                         <div data-th-replace="fragments/footer-content :: footer-content"></div>
                         <!-- /footer content -->
                     </div>
-                    <script src="/css/theme/plugins/fontawesome-free-5.7.2-web/js/all.js"></script>
-                    <script src="/css/theme/plugins/fontawesome-free-5.7.2-web/js/brands.min.js"></script>
-                    <script src="/css/theme/plugins/fontawesome-free-5.7.2-web/js/solid.min.js"></script>
-                    <script src="/css/theme/plugins/jquery/jquery-3.3.1.min.js"></script>
-                    <script src="/js/popper.min.js"></script>
-                    <script src="/js/bootstrap.min.js"></script>
-                    <script src="/js/vue.js"></script>
-                    <script src="/js/main.js"></script>
-                    <script>
-                        function myAccFunc() {
-                            var x = document.getElementById("demoAcc");
-                            if (x.className.indexOf("w3-show") == -1) {
-                                x.className += " w3-show";
-                                x.previousElementSibling.className += " w3-green";
-                            } else {
-                                x.className = x.className.replace(" w3-show", "");
-                                x.previousElementSibling.className =
-                                        x.previousElementSibling.className.replace(" w3-green", "");
-                            }
-                        }
+                </div>
 
-                        function myDropFunc() {
-                            var x = document.getElementById("demoDrop");
-                            if (x.className.indexOf("w3-show") == -1) {
-                                x.className += " w3-show";
-                                x.previousElementSibling.className += " w3-green";
-                            } else {
-                                x.className = x.className.replace(" w3-show", "");
-                                x.previousElementSibling.className =
-                                        x.previousElementSibling.className.replace(" w3-green", "");
-                            }
-                        }
-                    </script>
-                    </body>
-                    </html>
+            </nav>
+        </div>
+
+
+        <!-- main content-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+                    <!--<div class="row pt-md-5 mt-md-3 mb-5">-->
+                    <section class="content hide" id="contentcontent" > 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="box" style="box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                                    <div class="box-header with-border bg-teal">
+                                        <h3 class="box-title header_name" id="box-title"></h3>
+                                        <div class="box-tools float-right">                   
+                                            <button onclick="closeForm()" class="btn btn-box-tool"><i class="fas fa-times-circle-o fa-2x" style="color:white"></i></button>
+                                        </div>
+                                    </div><!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div id="formcontent" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content"  > 
+                        <div class="row">
+                            <div class="col-lg-12"  id="contentarea" style="overflow-x: auto;overflow-y: auto">
+                            </div>
+                        </div>
+                    </section>
+                    <!--</div>-->
+                </div>
+            </div>
+            <!-- main content-->
+            <script src="/theme/plugins/fontawesome-free-5.7.2-web/js/all.js"></script>
+            <script src="/theme/plugins/fontawesome-free-5.7.2-web/js/brands.min.js"></script>
+            <script src="/theme/plugins/fontawesome-free-5.7.2-web/js/solid.min.js"></script>
+            <script src="/theme/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+            <!--DataTable-->
+            <script src="/theme/plugins/dataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+            <script src="/theme/plugins/dataTables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js"></script>
+            <script src="/theme/plugins/dataTables/Buttons-1.5.4/js/buttons.bootstrap4.min.js"></script>
+            <script src="/theme/plugins/dataTables/Select-1.2.6/js/select.bootstrap4.min.js"></script>
+
+            <script src="/js/popper.min.js"></script>
+            <script src="/js/bootstrap.min.js"></script>
+            <script src="/js/vue.js"></script>
+            <script src="/js/main.js"></script>
+            <script type="text/javascript">
+                                                //load URL in particular content
+                                                function loadForm(link) {
+                                                    $(".header_name").html("");
+                                                    $("#formcontent").html("");
+                                                    $("#contentcontent").addClass('hide');
+                                                    $("#contentarea").load(link);
+                                                }
+            </script>
+    </body>
+</html>
